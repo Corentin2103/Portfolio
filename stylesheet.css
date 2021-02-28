@@ -761,10 +761,10 @@ h2{
   margin-top:-5%;
   margin-left: 35%;
   background:none;
-  width:150px;
+  width:200px;
   height:60px;
   border: 4px solid #DEB64E;
-  font-size:20px;
+  font-size:25px;
   font-weight:bold;
   color:#DEB64E;
   position:relative;
@@ -788,7 +788,9 @@ h2{
 .ProjetRes{
   display: block;
   margin-top: 10%;
+  margin-left: 5%;
   margin-bottom: 10%;
+  font-size: 2em;
 }
 .ProjetRes:hover{
   color:white;
