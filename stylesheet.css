@@ -1,0 +1,802 @@
+body {
+  margin: 0px;
+  background-color:black;
+}
+footer{
+  margin-top: 10%;
+}
+.video{
+  position : fixed;
+  top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(polina.jpg) no-repeat; */
+    background-size: cover;
+    opacity: 1;
+}
+.aboutMeResp{
+  display: none;
+}
+h1{
+
+  color : #DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+}
+h2{
+
+  position:fixed;
+  color : #DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+}
+.titre{
+  margin-left: 40%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+.intro {
+
+  padding-top: 15%;
+}
+.pave{
+
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size:cover;
+}
+.cv{
+  position:fixed;
+  margin-left: 30%;
+  padding-top:5%;
+
+}
+.cv img{
+  width:13%;
+}
+.cv p{
+  visibility: hidden;
+  position:fixed;
+  color:#DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+  margin-left: 3%;
+  padding-top: 3%;
+}
+.cv  a:hover + p{
+  visibility: visible;
+}
+.moi{
+  position:fixed;
+  margin-left: 52%;
+  padding-top:3.5%;
+
+}
+.moi img{
+  width:18%;
+}
+.moi p{
+  visibility: hidden ;
+  position:fixed;
+  color:#DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+  margin-left: -16%;
+  padding-top: 1.3%;
+}
+.moi  a:hover + p{
+  visibility: visible;
+}
+
+.projet{
+  position:fixed;
+  margin-left: 42%;
+  padding-top:6%;
+
+}
+.projet img{
+  width:8%;
+}
+.projet p{
+  visibility: hidden;
+  position:fixed;
+  color:#DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+  margin-left: -7%;
+  padding-top: 3.1%;
+}
+.projet  a:hover + p{
+  visibility: visible;
+}
+.shifumi{
+ position:fixed;
+}
+.jeu{
+  background-color:grey;
+}
+.objet{
+  padding-top: 10%;
+}
+.objet img{
+  width: 100%;
+}
+.objet button {
+  background-color:#FFE4B5;
+  text-decoration: none;
+  border: none;
+  width : 10%;
+  margin : 2%;
+  margin-left: 15%;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: yellow;
+  background-color: yellow;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #000000		;
+}
+.button:hover {background-color: yellow}
+
+.button:active {
+  background-color: orange;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.pierreJoueur{
+  width:5%;
+ display: none;
+ position : fixed;
+ margin-left : 40%;
+ padding-bottom: 2%;
+}
+.ciseauxJoueur{
+  width:5%;
+ display: none;
+ position : fixed;
+ margin-left : 40%;
+ padding-bottom: 2%;
+}
+.feuilleJoueur{
+ width:5%;
+ position : fixed;
+ display: none;
+ margin-left : 40%;
+ padding-bottom: 2%;
+}
+.pierrePC{
+  width:5%;
+ display: none;
+ position : fixed;
+ margin-left : 55%;
+ padding-bottom: 2%;
+}
+.ciseauxPC{
+  width:5%;
+ display: none;
+ position : fixed;
+ margin-left : 55%;
+ padding-bottom: 2%;
+}
+.feuillePC{
+ width:5%;
+ position : fixed;
+ display:none ;
+ margin-left : 55%;
+ padding-bottom: 2%;
+}
+
+.presentation{
+  border: 1px solid black;
+  display: block;
+  position: fixed;
+  margin-top:2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: rgba(255, 255, 255, .7);
+}
+.jeux{
+  padding-top:10%;
+}
+.parcours{
+  border: 1px solid black;
+  display: none;
+  position: fixed;
+  margin-top:2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: rgba(255, 255, 255, .7);
+
+}
+.actuel{
+  border: 1px solid black;
+  display: none;
+  position: fixed;
+  margin-top:2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: rgba(255, 255, 255, .7 );
+}
+
+
+.accueil{
+  float:left;
+  margin-top:-5%;
+  margin-left: 42.5%;
+  background:none;
+  width:250px;
+  height:60px;
+  border: 4px solid #DEB64E;
+  font-size:20px;
+  font-weight:bold;
+  color:#DEB64E;
+  position:relative;
+  cursor: pointer;
+}
+.accueil:hover{
+  color:white;
+  background-color: #DEB64E;
+  transition: .4s linear;
+  cursor:pointer;
+}
+
+.suivant{
+  float:right;
+  margin-top:-5.2%;
+  margin-right: 1%;
+  background: none;
+  display:block;
+  width:250px;
+  height:60px;
+  border: 4px solid #DEB64E;
+  font-size:20px;
+  font-weight:bold;
+  color:#DEB64E;
+  position:relative;
+  cursor: pointer;
+}
+.suivant:hover{
+  color:white;
+  background-color: #DEB64E;
+  transition: .4s linear;
+  cursor:pointer;
+}
+
+.reculer{
+  float:left;
+  margin-top:-5.2%;
+  margin-left: 1%;
+  background: none;
+  width:250px;
+  height:60px;
+  border: 4px solid #DEB64E;
+  font-size:20px;
+  font-weight:bold;
+  color:#DEB64E;
+  position:relative;
+  cursor: pointer;
+  display: none;
+}
+.reculer:hover{
+  color:white;
+  background-color: #DEB64E;
+  transition: .4s linear;
+  cursor:pointer;
+}
+
+.imgMoi img{
+  width:25%;
+  float:left;
+  display :block;
+}
+.imgMoi2 img{
+  width:25%;
+  float:right;
+  display :block;
+  margin-left: 5%;
+  margin-right: -7%;
+}
+.aboutMe p{
+  font-weight: bold;
+  font-size:2em;
+  text-align: justify;
+  color:black;
+
+}
+.j1{
+  position:fixed;
+  margin-left: 25%;
+  color : #DEB64E;
+  text-align: center;
+  font-size: 2em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+}
+.ai{
+  position:fixed;
+  margin-left: 65%;
+  color : #DEB64E;
+  text-align: center;
+  font-size: 2em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+}
+.ptai{
+  position:fixed;
+  margin-left: 70%;
+  color : #DEB64E;
+  text-align: center;
+  font-size: 0.8em;
+  display : inline-block;
+  text-shadow: 2px -2.5px  black;
+}
+.ptj1{
+  position:fixed;
+  margin-left: 2%;
+  color : #DEB64E;
+  text-align: center;
+  font-size: 0.8em;
+  display : inline-block;
+  text-shadow: 2px -2.5px  black;
+}
+.jeu a{
+  position:fixed;
+  color : #DEB64E;
+  margin-left:42%;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .text{
+  position: relative;
+  color: #BA55D3;
+  font-weight: 700;
+  font-size: 45px;
+  transform: scale(2);
+  padding: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.content .text:before,
+.content .text:after {
+  padding: 30px;
+  color: #FF6347;
+  content: attr(data-text);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+  top: 0;
+}
+.content .text:before{
+  left: 3px;
+  text-shadow: -2px 0 red;
+  animation: glitch-1 2s linear infinite reverse;
+}
+.content .text:after{
+  left: -3px;
+  text-shadow: -2px 0 blue;
+  animation: glitch-2 2s linear infinite reverse;
+}
+@keyframes glitch-1 {
+  0% {
+    clip: rect(132px, auto, 101px, 30px);
+  }
+  5% {
+    clip: rect(17px, auto, 94px, 30px);
+  }
+  10% {
+    clip: rect(40px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(87px, auto, 82px, 30px);
+  }
+  20% {
+    clip: rect(137px, auto, 61px, 30px);
+  }
+  25% {
+    clip: rect(34px, auto, 14px, 30px);
+  }
+  30% {
+    clip: rect(133px, auto, 74px, 30px);
+  }
+  35% {
+    clip: rect(76px, auto, 107px, 30px);
+  }
+  40% {
+    clip: rect(59px, auto, 130px, 30px);
+  }
+  45% {
+    clip: rect(29px, auto, 84px, 30px);
+  }
+  50% {
+    clip: rect(22px, auto, 67px, 30px);
+  }
+  55% {
+    clip: rect(67px, auto, 62px, 30px);
+  }
+  60% {
+    clip: rect(10px, auto, 105px, 30px);
+  }
+  65% {
+    clip: rect(78px, auto, 115px, 30px);
+  }
+  70% {
+    clip: rect(105px, auto, 13px, 30px);
+  }
+  75% {
+    clip: rect(15px, auto, 75px, 30px);
+  }
+  80% {
+    clip: rect(66px, auto, 39px, 30px);
+  }
+  85% {
+    clip: rect(133px, auto, 73px, 30px);
+  }
+  90% {
+    clip: rect(36px, auto, 128px, 30px);
+  }
+  95% {
+    clip: rect(68px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(14px, auto, 100px, 30px);
+  }
+}
+@keyframes glitch-2 {
+  0% {
+    clip: rect(129px, auto, 36px, 30px);
+  }
+  5% {
+    clip: rect(36px, auto, 4px, 30px);
+  }
+  10% {
+    clip: rect(85px, auto, 66px, 30px);
+  }
+  15% {
+    clip: rect(91px, auto, 91px, 30px);
+  }
+  20% {
+    clip: rect(148px, auto, 138px, 30px);
+  }
+  25% {
+    clip: rect(38px, auto, 122px, 30px);
+  }
+  30% {
+    clip: rect(69px, auto, 54px, 30px);
+  }
+  35% {
+    clip: rect(98px, auto, 71px, 30px);
+  }
+  40% {
+    clip: rect(146px, auto, 34px, 30px);
+  }
+  45% {
+    clip: rect(134px, auto, 43px, 30px);
+  }
+  50% {
+    clip: rect(102px, auto, 80px, 30px);
+  }
+  55% {
+    clip: rect(119px, auto, 44px, 30px);
+  }
+  60% {
+    clip: rect(106px, auto, 99px, 30px);
+  }
+  65% {
+    clip: rect(141px, auto, 74px, 30px);
+  }
+  70% {
+    clip: rect(20px, auto, 78px, 30px);
+  }
+  75% {
+    clip: rect(133px, auto, 79px, 30px);
+  }
+  80% {
+    clip: rect(78px, auto, 52px, 30px);
+  }
+  85% {
+    clip: rect(35px, auto, 39px, 30px);
+  }
+  90% {
+    clip: rect(67px, auto, 70px, 30px);
+  }
+  95% {
+    clip: rect(71px, auto, 103px, 30px);
+  }
+  100% {
+    clip: rect(83px, auto, 40px, 30px);
+  }
+}
+
+
+.covoiturage{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:5%;
+  padding: 10px;
+
+}
+.covoiturage img{
+  width: 40%;
+  margin-left: 30%;
+}
+.covoiturage p{
+  text-align: center;
+}
+ .voirPlus{
+  background: none;
+  width:150px;
+  height:60px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  border: 4px solid #DEB64E;
+  font-size:20px;
+  font-weight:bold;
+  color:#DEB64E;
+  cursor: pointer;
+}
+.voirPlus:hover{
+  color:white;
+  background-color: #DEB64E;
+  transition: .4s linear;
+  cursor:pointer;
+}
+
+.pop{
+  position: fixed;
+  display:none;
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 10%;
+  margin-left: 35.5%;
+  margin-top: -25%;
+  width: 20%;
+  padding: 5%;
+  z-index: 1;
+}
+
+.combava{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:65%;
+  padding: 10px;
+}
+.combava img{
+  width: 40%;
+  margin-left: 30%;
+}
+.combava p{
+  text-align: center;
+}
+.construct{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:5%;
+  padding: 10px;
+}
+.construct img{
+  width: 40%;
+  margin-left: 30%;
+}
+.construct p{
+  text-align: center;
+}
+.node{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:65%;
+  padding: 10px;
+}
+.node img{
+  width: 40%;
+  margin-left: 30%;
+}
+.node p{
+  text-align: center;
+}
+.videoPerso{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:5%;
+  padding: 10px;
+}
+.videoPerso video{
+  width: 40%;
+  margin-left: 30%;
+}
+.videoPerso p{
+  text-align: center;
+}
+.jeuShif{
+  display: block;
+}
+.ProjetRes{
+  display: none;
+}
+.building {
+  display:none;
+}
+.sunset {
+  display:none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 815px)
+{
+ body {
+
+
+ }
+ .building{
+   display: block;
+ }
+ .building img{
+
+   position:fixed;
+   height:110vh;
+   width: 100%;
+   z-index: -1;
+ }
+ .sunset{
+   display: block;
+ }
+ .sunset img{
+   position:fixed;
+   height:110vh;
+   width: 100%;
+   z-index: -1;
+ }
+ .video{
+   display: none;
+ }
+ h1{
+   position:;
+   color : #DEB64E;
+   text-align: center;
+   font-size: 3em;
+   font-weight:10000;
+   text-shadow: 2px -2.5px  black;
+ }
+ .intro{
+   position:;
+   margin-left:5%;
+ }
+ .aboutMeResp{
+   background-color: rgba(255,255,255,.7);
+   border : 1px solid black;
+   margin-left: 1%;
+   margin-right: 1%;
+   margin-bottom: 3%;
+   margin-top:15%;
+   text-align:justify;
+   font-weight:bold;
+
+   font-size: 1em;
+   display:block;
+   padding:2%;
+ }
+.cv{
+  display: none;
+}
+.moi{
+  display: none;
+}
+.projet{
+  display: none;
+}
+.content .text{
+  position: relative;
+  color: #BA55D3;
+  font-weight: 700;
+  font-size: 30px;
+  transform: scale(2);
+  padding: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.combava{
+  background-color: rgba(255,255,255, .4s);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:60%;
+  padding: 10px;
+}
+.node{
+  background-color: rgba(255,255,255, .4);
+  border : 2px solid white;
+  width: 30%;
+  margin-left:60%;
+  padding: 10px;
+}
+.accueil{
+  margin-top:-5%;
+  margin-left: 35%;
+  background:none;
+  width:150px;
+  height:60px;
+  border: 4px solid #DEB64E;
+  font-size:20px;
+  font-weight:bold;
+  color:#DEB64E;
+  position:relative;
+  cursor: pointer;
+}
+.pop{
+  position: fixed;
+  display:none;
+  background-color:white;
+  border: 2px solid black;
+  border-radius: 2%;
+  margin-left: 20%;
+  margin-top: -65%;
+  width: 55%;
+  padding: 5%;
+  z-index: 1;
+}
+.jeuShif{
+  display: none;
+}
+.ProjetRes{
+  display: block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.ProjetRes:hover{
+  color:white;
+  background-color: #DEB64E;
+  transition: .4s linear;
+  cursor:pointer;
+}
+footer{
+  margin-top: 10%;
+}
+}
