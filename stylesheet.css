@@ -82,6 +82,7 @@ h2{
   visibility: visible;
 }
 .ContactPage{
+  display:block;
   position : fixed;
   top: 50%;
     left: 50%;
@@ -97,6 +98,9 @@ h2{
     /* background: url(polina.jpg) no-repeat; */
     background-size: cover;
     opacity: 1;
+}
+.ContactPhoto{
+  display:none;
 }
 .coordonnees{
   background-color: rgba(255,255,255,.9);
@@ -743,7 +747,6 @@ h2{
    display: block;
  }
  .building img{
-
    position:fixed;
    height:110vh;
    width: 100%;
@@ -875,4 +878,18 @@ footer{
 .retour{
   margin-left:-55%;
 }
+.ContactPage{
+  display:none;
+}
+.ContactPhoto{
+  display: block;
+}
+.ContactPhoto img{
+  position:fixed;
+  height:100vh;
+  margin-top:-10%;
+  width: 100%;
+  z-index: -1;
+}
+
 }
