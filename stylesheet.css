@@ -727,6 +727,9 @@ h2{
 .sunset {
   display:none;
 }
+.ContactRes{
+  display:none;
+}
 
 /*----------------------------------------------------------------------------------------------------------------------*/
 
@@ -849,20 +852,27 @@ h2{
   display: none;
 }
 .ProjetRes{
-  display: block;
-  margin-top: 10%;
-  margin-left: 5%;
-  margin-bottom: 10%;
-  font-size: 2em;
+  display:block;
+  margin-top:15%;
 }
-.ProjetRes:hover{
-  color:white;
-  background-color: #DEB64E;
-  transition: .4s linear;
-  cursor:pointer;
+.ContactRes{
+  display:block;
+  margin-top:15%;
+  margin-bottom:15%;
 }
-
 footer{
   margin-top: 10%;
+}
+.contactImg{
+  display:none;
+}
+.coordonnees{
+  padding:20%;
+}
+.coordonnees img{
+  width:70%;
+}
+.retour{
+  margin-left:-55%;
 }
 }
