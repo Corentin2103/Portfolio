@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="..\stylesheet.css" />
+  <meta charset="utf-8">
+  <title>Corentin Vernel-Wesolowski</title>
+<link rel="shortcut icon" href="..\images\corentin.ico">
+</head>
+
+<body class="jeu">
+
+  <div class="ptj1">
+  <h1>Points joueur1 : 0</h1>
+</div>
+  <div class="ptai">
+  <h1>Points Ordinateur : </h1><h1 style="margin-left: 24%"id="resultat">0</h1>
+
+  </div>
+</div>
+
+  <div class="titre">
+    <h2>Jeu du shifumi</h2>
+  </div>
+  <div class="nom">
+    <p class="j1">Joueur1</p><p class="ai">Ordinateur</p>
+  </div>
+
+    <img class="pierreJoueur" src="..\images\roche.png">
+    <img class="ciseauxJoueur" src="..\images\ciseaux.png">
+    <img class="feuilleJoueur" src="..\images\papier.png">
+
+    <img class="pierrePC" src="..\images\roche.png">
+    <img class="ciseauxPC" src="..\images\ciseaux.png">
+    <img class="feuillePC" src="..\images\papier.png">
+
+  <div class="objet">
+
+    <button id="pierre" class="button" onclick="jouePierre()"><img src="..\images\roche.png"></button>
+    <button id="ciseaux" class="button" onclick="joueCiseaux()"><img src="..\images\ciseaux.png"></button>
+    <button id="feuille" class="button" onclick="joueFeuille()"><img src="..\images\papier.png"></button>
+  </div>
+<a href="..\index.html">Accueil</a>
+<script src="..\js\game.js"></script>
+</body>
+<footer>
+</footer>
+</html>
