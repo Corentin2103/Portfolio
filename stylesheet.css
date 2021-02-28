@@ -5,6 +5,7 @@ body {
 footer{
   margin-top: 10%;
 }
+
 .video{
   position : fixed;
   top: 50%;
@@ -58,12 +59,71 @@ h2{
   background-position: center;
   background-size:cover;
 }
+.contactImg{
+  position:fixed;
+  margin-left: 62%;
+  padding-top:5%;
+}
+.contactImg img{
+  width:13%;
+}
+.contactImg p{
+  visibility: hidden;
+  position:fixed;
+  color:#DEB64E;
+  text-align: center;
+  font-size: 3em;
+  font-weight:10000;
+  text-shadow: 2px -2.5px  black;
+  margin-left: -25%;
+  padding-top: 3%;
+}
+.contactImg a:hover + p{
+  visibility: visible;
+}
+.ContactPage{
+  position : fixed;
+  top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(polina.jpg) no-repeat; */
+    background-size: cover;
+    opacity: 1;
+}
+.coordonnees{
+  background-color: rgba(255,255,255,.9);
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10%;
+  padding:5%;
+}
+.coordonnees img{
+  width: 45%;
+  margin-left: 15%;
+  margin-right: auto;
+  text-align: center;
+}
+.retour{
+  margin-top:15%;
+  margin-left:-35%;
+}
 .cv{
   position:fixed;
   margin-left: 30%;
   padding-top:5%;
 
 }
+
 .cv img{
   width:13%;
 }
@@ -725,12 +785,15 @@ h2{
    padding:2%;
  }
 .cv{
-  display: none;
+  display: block;
 }
 .moi{
   display: none;
 }
 .projet{
+  display: none;
+}
+.contact{
   display: none;
 }
 .content .text{
@@ -798,6 +861,7 @@ h2{
   transition: .4s linear;
   cursor:pointer;
 }
+
 footer{
   margin-top: 10%;
 }
